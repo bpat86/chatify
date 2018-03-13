@@ -322,14 +322,10 @@ ul {
 .fa {
 	margin-right: 0.5rem;
 	text-shadow: 0 1px 2px rgba(0,0,0,0.2);
-	opacity: 0.8;
+	color: #bbdffb;
 }
 .fa.right {
 	margin-left: 0.5rem;
-}
-
-.green {
-	color: #00F787;
 }
 
 .level > div {
@@ -474,7 +470,7 @@ ul {
 	position: relative;
 	padding-left: 0.5rem;
 	padding-bottom: 15px;
-	border-bottom: 2px solid #fff;
+	border-bottom: 1px solid #fff;
 	font-weight: 600;
 	text-shadow: 0 1px 2px rgba(0,0,0,0.2);
 }
@@ -492,8 +488,8 @@ ul {
     text-transform: uppercase;
     font-size: 85%;
     font-weight: 600;
+    color: #bbdffb;
     text-shadow: 0 1px 2px rgba(0,0,0,0.2);
-    opacity: 0.7;
 }
 #sidebar .heading .app-name {
 	position: relative;
@@ -563,7 +559,7 @@ ul {
 	text-shadow: 0 1px 2px rgba(0,0,0,0.2);
 }
 #sidebar .users .user.offline {
-	opacity: 0.5;
+	color: #bbdffb;
 	text-shadow: 0 1px 2px rgba(0,0,0,0.2);
 	cursor: default;
 }
@@ -633,6 +629,14 @@ ul {
 .chat-header .status .active-chat-users {
 	color: #999;
 	font-weight: 600;
+}
+
+.chat-header .status .active-chat-users .fa {
+	color: #ccc;
+}
+
+.chat-header .status .active-chat-users .fa.green {
+	color: #59E678;
 }
 
 /* Messages */
