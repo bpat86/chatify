@@ -25,7 +25,7 @@ export default class DisconnectedUsers extends PureComponent {
                 {
                     differenceBy(disconnectedUsers, [user], 'id').map((user) => {
                         return (
-                            <div key={user.id} className="user">
+                            <div key={user.id} className="user offline">
                                 <div className="user-photo">{user.name[0].toUpperCase()}</div>
                                 <div className="user-info">
                                     <div className="name">
